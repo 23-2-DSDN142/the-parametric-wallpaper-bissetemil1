@@ -5,7 +5,7 @@ let rect_height = 20;
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
@@ -27,7 +27,7 @@ var bowX = 120
 var bowY = 30
 var ribbionX = 30
 var ribbionY = 30
-var snowmanX = 160
+var snowmanX = 155
 var snowmanY = 110
 
  //ribbion
@@ -41,16 +41,16 @@ var snowmanY = 110
  //rect(ribbionX+120,ribbionY*0,10,200,);//y-ribbion
 
 
- rect(ribbionX*0,ribbionY,200,10);//x-ribbion
- rect(ribbionX*0,ribbionY+30,200,10);//x-ribbion
- rect(ribbionX*0,ribbionY+60,200,10);//x-ribbion
- rect(ribbionX*0,ribbionY+90,200,10);//x-ribbion
- rect(ribbionX*0,ribbionY+120,200,10);//x-ribbion
+ //rect(ribbionX*0,ribbionY,200,10);//x-ribbion
+ //rect(ribbionX*0,ribbionY+30,200,10);//x-ribbion
+ //rect(ribbionX*0,ribbionY+60,200,10);//x-ribbion
+ //rect(ribbionX*0,ribbionY+90,200,10);//x-ribbion
+ //rect(ribbionX*0,ribbionY+120,200,10);//x-ribbion
 
  //bow
- triangle(bowX+35,bowY-25,bowX+35,bowY+25,bowX,bowY);
- triangle(bowX-33,bowY+25,bowX-33,bowY-25,bowX,bowY);
- ellipse(bowX,bowY,30,30);
+ //triangle(bowX+35,bowY-25,bowX+35,bowY+25,bowX,bowY);
+ //triangle(bowX-33,bowY+25,bowX-33,bowY-25,bowX,bowY);
+ //ellipse(bowX,bowY,30,30);
 
 //snowman
   strokeWeight(2);
@@ -89,7 +89,7 @@ var snowmanY = 110
   triangle(snowmanX+1,snowmanY+8,snowmanX-10,snowmanY+10,snowmanX+2,snowmanY+11);
 
 
-  var SManX=40
+  var SManX=55
   var SManY=55
  
  //snowman
