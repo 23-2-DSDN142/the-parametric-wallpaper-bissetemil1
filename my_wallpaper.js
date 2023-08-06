@@ -46,7 +46,7 @@ var snowmanY = 120
   ellipse(snowmanX+10,snowmanY,10,10);//left eye
   stroke("#868ba3");// dark purpely/blue
   fill("#868ba3");
-  ellipse(snowmanX-10,snowmanY+3,3,4);//middle of eye
+  ellipse(snowmanX-10,snowmanY-3,3,4);//middle of eye
   ellipse(snowmanX+10,snowmanY-3,3,4);//middle of eye
 
   //hat
@@ -71,7 +71,7 @@ var snowmanY = 120
   stroke(1);
   stroke("#cc94d4");//darker pinkpurple
   fill("#e1bee6");//pinkpurple
-  //rect(ribbionX,ribbionY*0,10,200,);//y-ribbion
+  rect(ribbionX,ribbionY*0,10,200,);//y-ribbion
   rect(ribbionX*0,ribbionY,200,10);//x-ribbion
 
   //bow
