@@ -5,9 +5,9 @@ let rect_height = 20;
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(A3);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
@@ -28,8 +28,23 @@ var bowY = 35
 var ribbionX = 30
 var ribbionY = 30
 var snowmanX = 120
-var snowmanY = 120
+var snowmanY = 110
 
+ //ribbion
+ stroke(1);
+ stroke("#cc94d4");//darker pinkpurple
+ fill("#e1bee6");//pinkpurple
+ //rect(ribbionX,ribbionY*0,10,200,);//y-ribbion
+ rect(ribbionX*0,ribbionY,200,10);//x-ribbion
+ rect(ribbionX*0,ribbionY+30,200,10);//x-ribbion
+ rect(ribbionX*0,ribbionY+60,200,10);//x-ribbion
+ rect(ribbionX*0,ribbionY+90,200,10);//x-ribbion
+ rect(ribbionX*0,ribbionY+120,200,10);//x-ribbion
+
+ //bow
+ triangle(bowX+35,bowY-25,bowX+35,bowY+25,bowX,bowY);
+ triangle(bowX-33,bowY+25,bowX-33,bowY-25,bowX,bowY);
+ ellipse(bowX,bowY,30,30);
 
 //snowman
   strokeWeight(2);
@@ -67,17 +82,7 @@ var snowmanY = 120
   fill("#faa250");//orange
   triangle(snowmanX+1,snowmanY+8,snowmanX-10,snowmanY+10,snowmanX+2,snowmanY+11);
 
-  //ribbion
-  stroke(1);
-  stroke("#cc94d4");//darker pinkpurple
-  fill("#e1bee6");//pinkpurple
-  rect(ribbionX,ribbionY*0,10,200,);//y-ribbion
-  rect(ribbionX*0,ribbionY,200,10);//x-ribbion
-
-  //bow
-  triangle(bowX+35,bowY-25,bowX+35,bowY+25,bowX,bowY);
-  triangle(bowX-33,bowY+25,bowX-33,bowY-25,bowX,bowY);
-  ellipse(bowX,bowY,30,30);
+ 
 
 
 }
