@@ -1,53 +1,222 @@
-You will need to fill out this file for hand in. 
-The bellow is just an example, feel free to disregard this documents contents.
+Wallpaper 1 Settings 
+
+    //your parameter variables go here!
+    var bowX = 150 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 30 //moves ribbion on y axis
+    var snowmanX = 155 //moves snowman1 on x axis
+    var snowmanY = 110 //moves snowman1 on y axis
+    var SManX=55 //moves snowman2 on x axis
+    var SManY=55 //moves snowman2 on y axis
 
 
-Your final settings.txt will look something like this when you are finished:
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GRID_WALLPAPER);
+    pWallpaper.resolution(NINE_LANDSCAPE);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
 
-/////////////////////////////////
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 50;
+    }
 
-Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+Wallpaper 2 Settings
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+    //your parameter variables go here!
+    var bowX = 150 //moves bow on x axis
+    var bowY = 170 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 30 //moves ribbion on y axis
+    var snowmanX = 155 //moves snowman1 on x axis
+    var snowmanY = 55 //moves snowman1 on y axis
+    var SManX=55 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
 
-/////////////////////////////////
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GLIDE_WALLPAPER);
+    pWallpaper.resolution(NINE_PORTRAITW);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
 
-Wallpaper 2:
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 0;
+    }
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+Wallpaper 3 Settings
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 170 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 45 //moves ribbion on y axis
+    var snowmanX = 155 //moves snowman1 on x axis
+    var snowmanY = 55 //moves snowman1 on y axis
+    var SManX=55 //moves snowman2 on x axis
+    var SManY=55 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GLIDE_WALLPAPER);
+    pWallpaper.resolution(NINE_PORTRAIT);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+        
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 0;
+    }
+
+
+Wallpaper 4 Settings
+
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 60 //moves ribbion on y axis
+    var snowmanX = 155 //moves snowman1 on x axis
+    var snowmanY = 110 //moves snowman1 on y axis
+    var SManX=55 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GRID_WALLPAPER);
+    pWallpaper.resolution(NINE_PORTRAIT);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 100;
+    }
+
+
+Wallpaper 5 Settings
+
+    //your parameter variables go here!
+    var bowX = 40 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 60 //moves ribbion on y axis
+    var snowmanX = 150 //moves snowman1 on x axis
+    var snowmanY = 70 //moves snowman1 on y axis
+    var SManX=55 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GRID_WALLPAPER);
+    pWallpaper.resolution(NINE_PORTRAIT);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 90;
+    }
+
+
+Wallpaper 6 Settings
+
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 100 //moves ribbion on y axis
+    var snowmanX = 155 //moves snowman1 on x axis
+    var snowmanY = 110 //moves snowman1 on y axis
+    var SManX=50 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GLIDE_WALLPAPER);
+    pWallpaper.resolution(NINE_LANDSCAPE);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 100;
+    }
+
+
+Wallpaper 7 Settings 
+
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 0 //moves ribbion on y axis
+    var snowmanX = 137 //moves snowman1 on x axis
+    var snowmanY = 110 //moves snowman1 on y axis
+    var SManX=62 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GRID_WALLPAPERW);
+    pWallpaper.resolution(NINE_LANDSCAPE);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 100;
+    }
+
+
+Wallpaper 8 Settings
+
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 170 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 0 //moves ribbion on y axis
+    var snowmanX = 165 //moves snowman1 on x axis
+    var snowmanY = 55 //moves snowman1 on y axis
+    var SManX=35 //moves snowman2 on x axis
+    var SManY=55 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GLIDE_WALLPAPER);
+    pWallpaper.resolution(NINE_LANDSCAPE);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 0;
+    }
+
+Wallpaper 9 Settings
+
+    //your parameter variables go here!
+    var bowX = 100 //moves bow on x axis
+    var bowY = 30 //moves bow in y axis
+    var ribbionX = 30 //moves ribbion on x axis
+    var ribbionY = 0 //moves ribbion on y axis
+    var snowmanX = 160 //moves snowman1 on x axis
+    var snowmanY = 110 //moves snowman1 on y axis
+    var SManX=40 //moves snowman2 on x axis
+    var SManY=110 //moves snowman2 on y axis
+
+
+    function setup_wallpaper(pWallpaper) {
+    pWallpaper.output_mode(GRID_WALLPAPER);
+    pWallpaper.resolution(NINE_LANDSCAPE);
+    pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+    //Grid settings
+    pWallpaper.grid_settings.cell_width  = 200;
+    pWallpaper.grid_settings.cell_height = 200;
+    pWallpaper.grid_settings.row_offset  = 100;
+    }
