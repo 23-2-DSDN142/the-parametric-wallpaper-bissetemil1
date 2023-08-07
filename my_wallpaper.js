@@ -11,7 +11,7 @@ var SManY=110 //moves snowman2 on y axis
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -31,8 +31,6 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
  stroke(1);
  stroke("#cc94d4");//darker pinkpurple
  fill("#e1bee6");//pinkpurple
- //rect(ribbionX,ribbionY*0,10,200,);//y-ribbion
- //rect(ribbionX+30,ribbionY*0,10,200,);//y-ribbion
 
  rect(ribbionX*0,ribbionY,200,10);//x-ribbion
  rect(ribbionX*0,ribbionY+30,200,10);//x-ribbion
